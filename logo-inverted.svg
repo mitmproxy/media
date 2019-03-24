@@ -1,0 +1,55 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="240px"
+  height="240px"
+  viewBox="-120 -120 240 240"
+>
+  <!-- logo.svg with s/white/black/g -->
+  <defs>
+    <!-- this could all be abbreviated (see git history), but support for advanced SVG is often abysmal -->
+    <g id="logo">
+      <!-- middle -->
+      <circle r="14" fill="#F15A29"/>
+      <circle r="19.5" stroke="#F7941E" stroke-width="4" fill="none"/>
+      <circle r="30" stroke="black" stroke-width="10" fill="none" />
+
+      <!-- left side -->
+      <path
+      stroke="black"
+      fill="none"
+      stroke-width="10"
+      d="
+      M 67, -72
+      A 100,100 0 0,0 -94,33
+      L -56,33
+      A 65,65 0 0,0 55,37
+      M -100,0
+      L -30, 0
+      " />
+      <circle cx="58" cy="29" r="6" fill="#F7941E"/>
+      <circle cx="58" cy="29" r="10" stroke="black" fill="none" stroke-width="3.2"/>
+      <circle cx="73" cy="-65" r="6" fill="#F7941E"/>
+      <circle cx="73" cy="-65" r="10" stroke="black" fill="none" stroke-width="3.2"/>
+
+      <!-- right side, just invert numbers -->
+      <path
+      stroke="black"
+      fill="none"
+      stroke-width="10"
+      d="
+      M -67, 72
+      A 100,100 0 0,0 94,-33
+      L 56,-33
+      A 65,65 0 0,0 -55,-37
+      M 100,0
+      L 30, 0
+      " />
+      <circle cx="-58" cy="-29" r="6" fill="#F7941E"/>
+      <circle cx="-58" cy="-29" r="10" stroke="black" fill="none" stroke-width="3.2"/>
+      <circle cx="-73" cy="65" r="6" fill="#F7941E"/>
+      <circle cx="-73" cy="65" r="10" stroke="black" fill="none" stroke-width="3.2"/>
+    </g>
+  </defs>
+  <use xlink:href="#logo" />
+</svg>
